@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--
-T: 2021-08-15 15:44:50
-Api: 59dcda171038199bba3a
-It: 1728740
 
--->
 <html>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
@@ -792,15 +787,20 @@ function UserTimer() {
 
 
 <script src="./ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type="text/javascript">
+
 
 <script type="text/javascript">
     var CPABUILDSETTINGS={"it":1728358,"key":"c8706"};
+    var forward="";
+    CPABUILDSETTINGS.onComplete=function(data){
+        window.location=forward;
+        return false;
+    };
 </script>
 <script src="https://d13nu0oomnx5ti.cloudfront.net/6ede954.js"></script>
 
 
-
+<script src="./d13nu0oomnx5ti.cloudfront.net/69b4b82.js"></script>
 <script type="text/javascript">
     $('.showContentLocker').click(function(){
        CPABuildLock();
